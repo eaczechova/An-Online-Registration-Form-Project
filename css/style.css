@@ -144,6 +144,7 @@ button {
 
 button:hover {
   background-color: rgb(26, 144, 135);
+  cursor: pointer;
 }
 
 footer {
@@ -163,6 +164,8 @@ footer {
     max-width: 768px;
     margin: auto;
     background-color: white;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
   }
 
   .hg-1 {
@@ -172,7 +175,8 @@ footer {
   }
 
   .hg-2 {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    padding-top: 2rem;
     margin-bottom: 0;
     font-size: 1.6rem;
   }
@@ -195,22 +199,21 @@ footer {
     padding-right: 0;
   }
 
-  .contact-info-container > *, #newsletter > *, #zipcode {
-    margin-left: 0;
+  input[type="radio"], input[type="checkbox"] {
+    margin-left: 1rem;
   }
 
   .label, .legend-title {
-    padding-left: 0;
+    padding-left: .5rem;
     padding-right: .5rem;
   }
 
   button {
-    width: 100%;
+    width: 98%;
   }
 
   #topics {
-    width: 100%;
-    margin-right: 0;
+    width: 98%;
   }
 
   .contact-info-container {
@@ -231,5 +234,8 @@ footer {
 
   #zipcode {
     width: 25%;
+  }
+  footer {
+    padding-bottom: 10rem;
   }
 }
