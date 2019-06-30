@@ -20,8 +20,8 @@ form {
   padding: 1.7rem;
   text-align: center;
   color: #fff;
-  text-transform: uppercase;
   font-size: 1.3rem;
+  text-transform: uppercase;
   letter-spacing: 1px;
 }
 
@@ -35,9 +35,9 @@ form {
 .pg, footer {
   text-align: center;
   font-size: 1rem;
+  color: rgb(164, 168, 173);
   padding: 0 2rem 1rem;
   line-height: 1.5rem;
-  color: rgb(164, 168, 173);
 }
 
 hr {
@@ -64,8 +64,8 @@ fieldset {
 
 .legend-title {
   font-size: 1.3rem;
-  padding: 1rem .5rem;
   font-weight: 700;
+  padding: 1rem .5rem;
 }
 
 .label {
@@ -202,26 +202,9 @@ footer {
     padding-top: 2.5rem;
   }
 
-  #newsletter {
-    margin-right: 0;
-    padding-right: 0;
-  }
-
-  input[type="radio"], input[type="checkbox"] {
-    margin-left: 1rem;
-  }
-
   .label, .legend-title {
     padding-left: .5rem;
     padding-right: .5rem;
-  }
-
-  button {
-    width: 98%;
-  }
-
-  #topics {
-    width: 98%;
   }
 
   .contact-info-container {
@@ -243,7 +226,20 @@ footer {
   #zipcode {
     width: 25%;
   }
-  
+
+  #newsletter {
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  input[type="radio"], input[type="checkbox"] {
+    margin-left: 1rem;
+  }
+
+  button, #topics {
+    width: 98%;
+  }
+
   footer {
     padding-bottom: 10rem;
   }
